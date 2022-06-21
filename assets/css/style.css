@@ -258,6 +258,109 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.container{
+  position: relative;
+}
+.container a{
+  padding: 0px 10px;
+}
+#rev{
+  height: 14rem;
+  width: 20rem;
+  animation: img 2s linear infinite alternate;
+  border-radius: 0px 20px 0px 25px;
+  display: flex;
+  justify-content: center;
+}
+@keyframes img {
+  0%{
+    border: 3px solid black;
+  }
+  25%{
+    border: 3px solid rgb(124, 7, 7);
+  }
+  50%{
+    border: 3px solid rgb(4, 102, 21);
+  }
+  75%{
+    border: 3px solid rgb(25, 0, 255);
+  }
+  100%{
+    border: 3px solid rgb(105, 3, 114);
+  }
+}
+.container h4{
+  font-family: 'Poppins', sans-serif;
+  transition: 0.3s;
+}
+
+
+@media (max-width: 342px) {
+  .container h4{
+    font-size: 17px;
+  }
+  #rev{
+    height: 13rem;
+    width: 19rem;
+  }
+  .container a{
+    padding: 0px 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container h4{
+    font-size: 17px;
+  }
+  #rev{
+    height: 10rem;
+    width: 15rem;
+  }
+  .container a{
+    padding: 0px 4px;
+  }
+}
+
+@media (max-width: 260px) {
+  .container h4{
+    font-size: 15px;
+  }
+  #rev{
+    height: 8rem;
+    width: 14rem;
+  }
+  .container a{
+    padding: 0px 4px;
+  }
+}
+
+@media (max-width: 240px) {
+  .container h4{
+    font-size: 15px;
+  }
+  #rev{
+    height: 7rem;
+    width: 12rem;
+  }
+  .container a{
+    padding: 0px 4px;
+  }
+}
+
+@media (max-width: 212px) {
+  .container h4{
+    font-size: 13px;
+  }
+  #rev{
+    height: 6rem;
+    width: 10rem;
+  }
+  .container a{
+    padding: 0px 4px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
